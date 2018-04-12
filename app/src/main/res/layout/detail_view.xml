@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/detail_view_product_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:textSize="48sp"/>
+
+    <TextView
+        android:id="@+id/detail_view_quantity_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:textSize="32sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp">
+
+        <Button
+            android:id="@+id/detail_view_sale_button"
+            android:layout_width="144dp"
+            android:layout_height="144dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:text="@string/detail_view_sale_button"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/detail_view_shipment_button"
+            android:layout_width="144dp"
+            android:layout_height="144dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="24dp"
+            android:text="@string/detail_view_shipment_button"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/detail_view_order_button"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_view_sale_button"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="48dp"
+            android:text="@string/detail_view_order_button"/>
+
+        <Button
+            android:id="@+id/detail_view_delete_button"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/detail_view_shipment_button"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="48dp"
+            android:text="@string/detail_view_delete_button"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

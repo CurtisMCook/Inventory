@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="add">Add</string>
+    <string name="instructions_to_user">Click the ADD button in the menu bar above.
+        Then enter the required product information.</string>
+    <string name="product_name_edit_text_hint">Name of Product</string>
+    <string name="product_quantity_edit_text_hint">Quantity</string>
+    <string name="product_price_edit_text_hint">Price</string>
+    <string name="product_submit_to_database_button">Submit</string>
+    <string name="product_upload_image_button">Upload Image</string>
+
+    <string name="list_item_product_name_text">Product</string>
+    <string name="list_item_quantity_text">Qty: 50</string>
+    <string name="list_item_price_text">Price: $150</string>
+    <string name="list_item_sale_button">Sale</string>
+    <string name="list_item_vertical_divider">|</string>
+
+    <string name="detail_view_product_name_text_view">Product: </string>
+    <string name="detail_view_quantity_text_view">Quantity: </string>
+    <string name="detail_view_sale_button">Sale</string>
+    <string name="detail_view_shipment_button">Shipment</string>
+    <string name="detail_view_order_button">Order</string>
+    <string name="detail_view_delete_button">Delete</string>
+</resources>

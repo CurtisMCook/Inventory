@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:padding="8dp"
+    >
+
+    <ImageView
+        android:id="@+id/list_item_image_view"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="8dp"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/list_item_product_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/list_item_product_name_text"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/list_item_quantity_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/list_item_product_name_text"
+            android:text="@string/list_item_quantity_text"/>
+
+        <TextView
+            android:id="@+id/list_item_vertical_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/list_item_product_name_text"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_toRightOf="@id/list_item_quantity_text"
+            android:text="@string/list_item_vertical_divider"/>
+
+        <TextView
+            android:id="@+id/list_item_price_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/list_item_product_name_text"
+            android:layout_toRightOf="@id/list_item_vertical_divider"
+            android:text="@string/list_item_price_text"/>
+
+        <Button
+            android:id="@+id/list_item_sale_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/list_item_sale_button"/>
+    </RelativeLayout>
+</LinearLayout>
